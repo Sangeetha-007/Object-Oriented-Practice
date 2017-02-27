@@ -4,6 +4,7 @@ public class LibraryCard {
 	private String id;
 	private String cardholderName;
 	private ArrayList<BookCopy> booksCheckedOut;
+	private double fees;
 	
 	public LibraryCard(String i, String name)
 	{
@@ -27,7 +28,18 @@ public class LibraryCard {
 		booksCheckedOut.add(book);
 		return true;
 	}
+	public boolean checkIn (BookCopy book){
+		
+		if(checkIn==true)
+			return true;
+		else
+			fess+=.10;
+		
 	
+		
+	}
+		
+		
 	public boolean returnBook (BookCopy book)
 	//returns book and sends message to BookCopy to do the same
 	//returns false if book is not checked out
