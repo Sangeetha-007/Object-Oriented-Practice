@@ -33,12 +33,21 @@ public class LibraryCard {
 		if(checkIn==true)
 			return true;
 		else
-			fess+=.10;
+			fees+=.10;
 		
 	
+	}
+	
+	public boolean checkIn(Date    ) {   //overloading
+		
+		
+	
+	}
+	public booleah checkOut(Date    ){
+		
+		
 		
 	}
-		
 		
 	public boolean returnBook (BookCopy book)
 	//returns book and sends message to BookCopy to do the same
