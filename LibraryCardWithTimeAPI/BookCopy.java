@@ -16,7 +16,7 @@ public class BookCopy {
 	//checks book out by setting card reference to borrower.
 	//returns false if book is already checked out
 	{	
-		//DueDate weekLater = todaysDate.plusWeeks(1);
+		//DueDate weekLater = todaysDate.plusWeeks(3);
 		if (card != null)
 			return false;
 		card = borrower;
